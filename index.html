@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ivorist | Hardware and Software</title>
+    <meta
+        name="description"
+        content="Ivorist is a small product development studio working across electronics, embedded systems, and software."
+    >
+    <meta name="theme-color" content="#08090a">
+
+    <link
+        rel="icon"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36'%3E%3Crect width='36' height='36' rx='8' fill='%2308090a'/%3E%3Cpath d='M18 8L28 18L18 28L8 18Z' stroke='%234ade80' stroke-width='2.4' fill='none'/%3E%3Cpath d='M18 2V8M18 28V34M2 18H8M28 18H34' stroke='%234ade80' stroke-width='2'/%3E%3C/svg%3E"
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body id="top">
+
+    <div class="background-glow" aria-hidden="true"></div>
+
+    <header class="site-header" id="siteHeader">
+        <nav class="nav container" aria-label="Main navigation">
+
+            <a href="index.html" class="brand" aria-label="Ivorist home">
+                <svg
+                    class="brand-logo"
+                    viewBox="0 0 36 36"
+                    fill="none"
+                    aria-hidden="true"
+                >
+                    <defs>
+                        <linearGradient
+                            id="gemGrad"
+                            x1="0"
+                            y1="0"
+                            x2="36"
+                            y2="36"
+                            gradientUnits="userSpaceOnUse"
+                        >
+                            <stop offset="0" stop-color="#effff6"/>
+                            <stop offset="0.5" stop-color="#34d399"/>
+                            <stop offset="1" stop-color="#effff6"/>
+                        </linearGradient>
+                    </defs>
+
+                    <path
+                        d="M18 6 L30 18 L18 30 L6 18 Z"
+                        stroke="url(#gemGrad)"
+                        stroke-width="2.2"
+                        stroke-linejoin="round"
+                    />
+
+                    <path
+                        d="M18 12.5 L23.5 18 L18 23.5 L12.5 18 Z"
+                        stroke="#4ade80"
+                        stroke-opacity="0.35"
+                        stroke-width="1.4"
+                    />
+
+                    <path
+                        d="M18 2 V6 M18 30 V34 M2 18 H6 M30 18 H34"
+                        stroke="#4ade80"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                    />
+
+                    <circle cx="18" cy="2" r="1.8" fill="#4ade80"/>
+                    <circle cx="18" cy="34" r="1.8" fill="#4ade80"/>
+                    <circle cx="2" cy="18" r="1.8" fill="#4ade80"/>
+                    <circle cx="34" cy="18" r="1.8" fill="#4ade80"/>
+                </svg>
+
+                <span class="brand-name">IVORIST</span>
+            </a>
+
+            <button
+                class="nav-toggle"
+                id="navToggle"
+                aria-label="Toggle navigation"
+                aria-expanded="false"
+                aria-controls="navLinks"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+
+        <section class="hero container">
+
+            <p class="eyebrow reveal">
+                HARDWARE / SOFTWARE / PRODUCT DEVELOPMENT
+            </p>
+
+            <h1 class="hero-title reveal">
+                We build the
+                <span class="gradient-text">whole</span>
+                product
+            </h1>
+
+            <p class="hero-description reveal">
+                From circuit boards and firmware to applications and cloud
+                systems, we work across the different parts of a product
+                instead of treating them as separate projects.
+            </p>
+
+            <div class="hero-actions reveal">
+                <a href="projects.html" class="button button-primary">
+                    See our projects
+                    <span aria-hidden="true">↗</span>
+                </a>
+
+                <a href="about.html" class="text-link">
+                    About Ivorist
+                    <span aria-hidden="true">→</span>
+                </a>
+            </div>
+
+            <div class="hero-bottom reveal">
+                <span>INDEPENDENT PRODUCT DEVELOPMENT STUDIO</span>
+            </div>
+
+        </section>
+
+
+        <!-- INTRODUCTION -->
+
+        <section class="section container">
+
+            <div class="section-heading reveal">
+                <p class="eyebrow">WHAT WE DO</p>
+
+                <h2>
+                    Two sides of the same
+                    <span class="gradient-text">product;</span>
+                </h2>
+            </div>
+
+            <div class="intro-grid">
+
+                <p class="intro-lead reveal">
+                    A device is more than its circuit board. The firmware,
+                    software, and systems around it matter just as much.
+                </p>
+
+                <div class="intro-copy reveal">
+                    <p>
+                        Ivorist works across both hardware and software.
+                        That includes electronics and embedded systems,
+                        as well as the applications and services that
+                        connect everything together.
+                    </p>
+
+                    <p>
+                        It means we can look at how the pieces will work
+                        together early on, rather than waiting until
+                        everything has been built to figure out how
+                        to connect them.
+                    </p>
+
+                    <a href="about.html" class="text-link">
+                        More about us
+                        <span aria-hidden="true">→</span>
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECT FEATURE -->
+
+        <section class="section section-alt">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <p class="eyebrow">CURRENT PROJECT</p>
+
+                    <h2>
+                        Work in
+                        <span class="gradient-text">progress.</span>
+                    </h2>
+
+                    <p class="section-description">
+                        A look at one of the projects we're currently
+                        developing.
+                    </p>
+                </div>
+
+                <article class="featured-project reveal">
+
+                    <div class="project-label">
+                        <span>PROJECT 001</span>
+                        <span>IN DEVELOPMENT</span>
+                    </div>
+
+                    <div class="featured-project-content">
+
+                        <div>
+                            <h3>Archivist</h3>
+
+                            <p>
+                                A local document research tool designed
+                                to make large collections of files easier
+                                to search and work with.
+                            </p>
+
+                            <p>
+                                The current build focuses on document
+                                indexing and semantic search. The longer-term
+                                goal is to make it easier to find information
+                                across personal document collections without
+                                relying on a cloud service.
+                            </p>
+                        </div>
+
+                        <a href="archivist.html" class="button button-outline">
+                            Explore Archivist
+                            <span aria-hidden="true">↗</span>
+                        </a>
+
+                    </div>
+
+                </article>
+
+                <div class="section-footer-link reveal">
+                    <a href="projects.html" class="text-link">
+                        View the project directory
+                        <span aria-hidden="true">→</span>
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CAPABILITIES -->
+
+        <section class="section container">
+
+            <div class="section-heading reveal">
+                <p class="eyebrow">CAPABILITIES</p>
+
+                <h2>
+                    What we can
+                    <span class="gradient-text">work on.</span>
+                </h2>
+            </div>
+
+            <div class="capability-grid">
+
+                <article class="capability-card reveal">
+                    <span class="capability-number">01</span>
+
+                    <h3>Hardware</h3>
+
+                    <p>
+                        PCB design, circuit engineering, embedded systems,
+                        firmware, and IoT devices.
+                    </p>
+                </article>
+
+                <article class="capability-card reveal">
+                    <span class="capability-number">02</span>
+
+                    <h3>Software</h3>
+
+                    <p>
+                        Web platforms, mobile applications, cloud backends,
+                        and APIs.
+                    </p>
+                </article>
+
+                <article class="capability-card reveal">
+                    <span class="capability-number">03</span>
+
+                    <h3>AI &amp; automation</h3>
+
+                    <p>
+                        AI-based features, data workflows, and automation
+                        for practical use cases.
+                    </p>
+                </article>
+
+            </div>
+
+            <div class="section-footer-link reveal">
+                <a href="services.html" class="text-link">
+                    View all services
+                    <span aria-hidden="true">→</span>
+                </a>
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT CTA -->
+
+        <section class="section container">
+
+            <div class="contact-panel reveal">
+
+                <div>
+                    <p class="eyebrow">CONTACT</p>
+
+                    <h2>
+                        Have something
+                        <span class="gradient-text">in mind?</span>
+                    </h2>
+
+                    <p>
+                        If you're working on a product and need help with
+                        the hardware, software, or both, get in touch.
+                    </p>
+                </div>
+
+                <a href="contact.html" class="button button-primary">
+                    Contact Ivorist
+                    <span aria-hidden="true">↗</span>
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+
+            <a href="index.html" class="brand">
+                <svg class="brand-logo" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+                    <path
+                        d="M18 6 L30 18 L18 30 L6 18 Z"
+                        stroke="#4ade80"
+                        stroke-width="2.2"
+                    />
+                    <path
+                        d="M18 2 V6 M18 30 V34 M2 18 H6 M30 18 H34"
+                        stroke="#4ade80"
+                        stroke-width="2"
+                    />
+                    <circle cx="18" cy="2" r="1.8" fill="#4ade80"/>
+                    <circle cx="18" cy="34" r="1.8" fill="#4ade80"/>
+                    <circle cx="2" cy="18" r="1.8" fill="#4ade80"/>
+                    <circle cx="34" cy="18" r="1.8" fill="#4ade80"/>
+                </svg>
+
+                <span class="brand-name">IVORIST</span>
+            </a>
+
+            <p class="footer-copy">
+                © <span id="year">2026</span> Ivorist
+            </p>
+
+            <a href="#top" class="footer-top-link">
+                Back to top ↑
+            </a>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
